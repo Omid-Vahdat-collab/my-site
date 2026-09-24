@@ -8,17 +8,11 @@ public_folder: "/images"
 
 collections:
   - name: "posts"
-    label: "کتاب‌ها و نوشته‌ها"
+    label: "کتاب‌ها"
     folder: "content/posts"
     create: true
-    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
-      - { label: "عنوان کتاب", name: "title", widget: "string" }
-      - { label: "تاریخ انتشار", name: "date", widget: "datetime" }
-      - { label: "پیش‌نویس است؟", name: "draft", widget: "boolean", default: false }
-      - { label: "توضیح کوتاه (چکیده)", name: "summary", widget: "text", required: false }
-      - { label: "تصویر جلد", name: "cover", widget: "object", fields: [
-          { label: "فایل عکس", name: "image", widget: "image" },
-          { label: "متن جایگزین عکس", name: "alt", widget: "string", required: false }
-        ]}
-      - { label: "متن و لینک‌های دانلود", name: "body", widget: "markdown" }
+      - {label: "عنوان", name: "title", widget: "string"}
+      - {label: "تاریخ", name: "date", widget: "datetime"}
+      - {label: "پیش‌نویس", name: "draft", widget: "boolean", default: false}
+      - {label: "متن", name: "body", widget: "markdown"}
