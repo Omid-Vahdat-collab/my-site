@@ -1,7 +1,7 @@
 backend:
   name: github
-  repo: Omid-Vahdat/YOUR_REPO_NAME # نام کاربری و اسم ریپازیتوری شما
-  branch: main # یا master
+  repo: Omid-Vahdat/my-site
+  branch: main
 
 media_folder: "static/images"
 public_folder: "/images"
