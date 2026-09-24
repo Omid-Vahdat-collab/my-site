@@ -1,0 +1,24 @@
+baseURL = 'https://your-username.github.io/my-site/'
+languageCode = 'fa-ir'
+title = 'کتابخانه مستقل و نشر دیجیتال'
+theme = 'PaperMod'
+
+[params]
+  defaultTheme = 'auto'
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowCodeCopyButtons = true
+  
+  [params.homeInfoParams]
+    Title = 'به کتابخانه خوش آمدید'
+    Content = 'پایگاه دانلود رایگان کتاب‌ها و ترجمه‌های دیجیتال'
+
+[[menu.main]]
+  name = 'کتاب‌ها'
+  url = '/posts/'
+  weight = 10
+
+[[menu.main]]
+  name = 'درباره ما'
+  url = '/about/'
+  weight = 20
